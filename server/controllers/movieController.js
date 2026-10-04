@@ -55,6 +55,30 @@ export const mockMovies = [
     poster_path: "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",
     backdrop_path: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1920",
     genre_ids: [28, 878]
+  },
+  {
+    id: 8,
+    title: "Gladiator",
+    overview: "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    poster_path: "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+    backdrop_path: "https://image.tmdb.org/t/p/original/hQ4pYsIbP22TMXOUdSfC2cbWonr.jpg",
+    genre_ids: [28, 18, 12]
+  },
+  {
+    id: 9,
+    title: "John Wick",
+    overview: "Ex-hitman John Wick comes out of retirement to track down the gangsters that took everything from him.",
+    poster_path: "https://image.tmdb.org/t/p/w500/ziEuG1essDuWuC5lpWUaw1uMD2O.jpg",
+    backdrop_path: "https://image.tmdb.org/t/p/original/mdfpXOWCJPNufJQel8wJaxxHkG2.jpg",
+    genre_ids: [28, 53]
+  },
+  {
+    id: 10,
+    title: "Spider-Man: No Way Home",
+    overview: "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero.",
+    poster_path: "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1R70cq9zB601Xz.jpg",
+    backdrop_path: "https://image.tmdb.org/t/p/original/iQFcwSGbZMOxgURbJZv2pGffS88.jpg",
+    genre_ids: [28, 12, 878]
   }
 ];
 
