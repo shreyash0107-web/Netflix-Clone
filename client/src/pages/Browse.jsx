@@ -13,9 +13,10 @@ const Browse = () => {
     fetchWatchlist();
     
     const fetchMovies = async () => {
+      const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
       try {
-        const trendingRes = await axios.get('http://localhost:5000/api/movies/trending');
-        const actionRes = await axios.get('http://localhost:5000/api/movies/action');
+        const trendingRes = await axios.get(`${API_URL}/movies/trending`);
+        const actionRes = await axios.get(`${API_URL}/movies/action`);
         setTrending(trendingRes.data);
         setAction(actionRes.data);
       } catch (error) {
